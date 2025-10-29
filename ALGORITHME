@@ -5,9 +5,10 @@ int main()
 
 {
     int a,b,r;
-   printf("Donner le premier nombre : "); scanf("%d", &a); printf("Donner le deuxieme nombre: ");
-
-scanf("%d", &b);
+   printf("Donner le premier nombre : ");
+   scanf("%d", &a);
+   printf("Donner le deuxieme nombre: ");
+   scanf("%d", &b);
 
 // Algorithme d'Euclide
 
