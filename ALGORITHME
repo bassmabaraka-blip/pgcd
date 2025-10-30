@@ -25,5 +25,8 @@ b = r;
 // Affichage du résultat
 
 printf("Le PGCD est: %d\n", a);
+if(a==1){
+printf("les deux nombres sont premiers entre eux");
+}
     return 0;
 }
