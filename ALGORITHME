@@ -14,13 +14,13 @@ int main()
 
 while (b != 0) {
 
-}
-
 r = a % b;
+printf("a=%d,b=%d,r=a%%b=%d\n",a,b,r);
 
 a = b;
 
 b = r;
+}
 
 // Affichage du résultat
 
